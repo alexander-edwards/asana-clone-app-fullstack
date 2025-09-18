@@ -5,11 +5,11 @@ import projectService from '../services/project.service';
 import {
   PlusIcon,
   FolderIcon,
-  ViewGridIcon,
-  ViewListIcon,
+  Squares2X2Icon,
+  ListBulletIcon,
   CalendarIcon,
   ChartBarIcon,
-} from '@heroicons/react/outline';
+} from '@heroicons/react/24/outline';
 import toast from 'react-hot-toast';
 
 const WorkspaceView = () => {
@@ -31,8 +31,8 @@ const WorkspaceView = () => {
   ];
 
   const viewTypes = [
-    { value: 'list', label: 'List', icon: ViewListIcon },
-    { value: 'board', label: 'Board', icon: ViewGridIcon },
+    { value: 'list', label: 'List', icon: ListBulletIcon },
+    { value: 'board', label: 'Board', icon: Squares2X2Icon },
     { value: 'timeline', label: 'Timeline', icon: ChartBarIcon },
     { value: 'calendar', label: 'Calendar', icon: CalendarIcon },
   ];

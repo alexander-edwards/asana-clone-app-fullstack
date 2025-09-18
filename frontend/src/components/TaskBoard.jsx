@@ -1,6 +1,6 @@
 import React from 'react';
 import TaskCard from './TaskCard';
-import { PlusIcon } from '@heroicons/react/outline';
+import { PlusIcon } from '@heroicons/react/24/outline';
 
 const TaskBoard = ({ sections, tasks, onCreateTask, onUpdateTask, onDeleteTask, onCreateSection }) => {
   const getTasksForSection = (sectionId) => {

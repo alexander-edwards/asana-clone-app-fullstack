@@ -4,11 +4,11 @@ import {
   CalendarIcon,
   UserIcon,
   FlagIcon,
-  DotsVerticalIcon,
+  EllipsisVerticalIcon,
   TrashIcon,
   PencilIcon,
-} from '@heroicons/react/outline';
-import { CheckCircleIcon as CheckCircleSolidIcon } from '@heroicons/react/solid';
+} from '@heroicons/react/24/outline';
+import { CheckCircleIcon as CheckCircleSolidIcon } from '@heroicons/react/24/solid';
 import { format } from 'date-fns';
 
 const TaskCard = ({ task, onUpdate, onDelete }) => {
@@ -61,7 +61,7 @@ const TaskCard = ({ task, onUpdate, onDelete }) => {
             onClick={() => setShowMenu(!showMenu)}
             className="p-1 rounded hover:bg-gray-100"
           >
-            <DotsVerticalIcon className="h-4 w-4 text-gray-400" />
+            <EllipsisVerticalIcon className="h-4 w-4 text-gray-400" />
           </button>
           {showMenu && (
             <div className="absolute right-0 mt-1 w-48 bg-white rounded-md shadow-lg z-10 border border-gray-200">

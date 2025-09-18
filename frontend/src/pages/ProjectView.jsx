@@ -6,11 +6,11 @@ import TaskBoard from '../components/TaskBoard';
 import TaskList from '../components/TaskList';
 import {
   PlusIcon,
-  ViewGridIcon,
-  ViewListIcon,
-  FilterIcon,
+  Squares2X2Icon,
+  ListBulletIcon,
+  FunnelIcon,
   UserGroupIcon,
-} from '@heroicons/react/outline';
+} from '@heroicons/react/24/outline';
 import toast from 'react-hot-toast';
 
 const ProjectView = () => {
@@ -177,13 +177,13 @@ const ProjectView = () => {
                 onClick={() => setViewType('board')}
                 className={`p-2 rounded ${viewType === 'board' ? 'bg-white shadow-sm' : ''}`}
               >
-                <ViewGridIcon className="h-5 w-5 text-gray-600" />
+                <Squares2X2Icon className="h-5 w-5 text-gray-600" />
               </button>
               <button
                 onClick={() => setViewType('list')}
                 className={`p-2 rounded ${viewType === 'list' ? 'bg-white shadow-sm' : ''}`}
               >
-                <ViewListIcon className="h-5 w-5 text-gray-600" />
+                <ListBulletIcon className="h-5 w-5 text-gray-600" />
               </button>
             </div>
 

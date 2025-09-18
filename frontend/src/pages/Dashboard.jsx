@@ -10,7 +10,7 @@ import {
   CheckCircleIcon,
   ClockIcon,
   UsersIcon,
-} from '@heroicons/react/outline';
+} from '@heroicons/react/24/outline';
 import toast from 'react-hot-toast';
 
 const Dashboard = () => {

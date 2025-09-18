@@ -7,12 +7,12 @@ import {
   UsersIcon,
   BellIcon,
   PlusIcon,
-  SearchIcon,
-  MenuIcon,
-  XIcon,
-  LogoutIcon,
+  MagnifyingGlassIcon,
+  Bars3Icon,
+  XMarkIcon,
+  ArrowLeftOnRectangleIcon,
   UserIcon,
-} from '@heroicons/react/outline';
+} from '@heroicons/react/24/outline';
 
 const Layout = () => {
   const { user, logout } = useAuth();
@@ -50,7 +50,7 @@ const Layout = () => {
               onClick={() => setIsSidebarOpen(!isSidebarOpen)}
               className="p-1 rounded-md hover:bg-primary-700"
             >
-              <MenuIcon className="h-5 w-5" />
+              <Bars3Icon className="h-5 w-5" />
             </button>
           </div>
 
@@ -91,7 +91,7 @@ const Layout = () => {
                   onClick={handleLogout}
                   className="ml-2 p-1 rounded-md hover:bg-primary-700"
                 >
-                  <LogoutIcon className="h-5 w-5" />
+                  <ArrowLeftOnRectangleIcon className="h-5 w-5" />
                 </button>
               )}
             </div>
@@ -109,7 +109,7 @@ const Layout = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               >
-                <XIcon className="h-6 w-6 text-white" />
+                <XMarkIcon className="h-6 w-6 text-white" />
               </button>
             </div>
             <div className="flex-1 h-0 pt-5 pb-4 overflow-y-auto">
@@ -160,7 +160,7 @@ const Layout = () => {
             onClick={() => setIsMobileMenuOpen(true)}
             className="px-4 border-r border-gray-200 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500 md:hidden"
           >
-            <MenuIcon className="h-6 w-6" />
+            <Bars3Icon className="h-6 w-6" />
           </button>
           <div className="flex-1 px-4 flex justify-between">
             <div className="flex-1 flex">
@@ -170,7 +170,7 @@ const Layout = () => {
                 </label>
                 <div className="relative w-full text-gray-400 focus-within:text-gray-600">
                   <div className="absolute inset-y-0 left-0 flex items-center pointer-events-none">
-                    <SearchIcon className="h-5 w-5" />
+                    <MagnifyingGlassIcon className="h-5 w-5" />
                   </div>
                   <input
                     id="search-field"

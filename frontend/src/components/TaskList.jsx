@@ -4,8 +4,8 @@ import {
   CalendarIcon,
   FlagIcon,
   PlusIcon,
-} from '@heroicons/react/outline';
-import { CheckCircleIcon as CheckCircleSolidIcon } from '@heroicons/react/solid';
+} from '@heroicons/react/24/outline';
+import { CheckCircleIcon as CheckCircleSolidIcon } from '@heroicons/react/24/solid';
 import { format } from 'date-fns';
 
 const TaskList = ({ sections, tasks, onCreateTask, onUpdateTask, onDeleteTask }) => {
