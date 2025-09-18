@@ -1,6 +1,12 @@
-# Asana Clone - Full Stack Application
+# 🚀 Asana Clone - Full Stack Application
 
-A comprehensive project management application inspired by Asana, built with modern web technologies.
+A comprehensive project management application inspired by Asana, built with modern web technologies. Features a complete task management system with workspaces, projects, tasks, and real-time collaboration.
+
+## 🌐 Live Demo
+
+- **Frontend**: https://asana-frontend-morphvm-s6un9i69.http.cloud.morph.so
+- **Backend API**: https://asana-backend-morphvm-s6un9i69.http.cloud.morph.so
+- **API Documentation**: https://asana-backend-morphvm-s6un9i69.http.cloud.morph.so/api
 
 ## Features
 
